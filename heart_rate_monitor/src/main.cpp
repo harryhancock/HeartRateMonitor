@@ -113,7 +113,7 @@ void loop() { //loop continuously
       timer = millis()/1000; //measures time since start in seconds, millis is in milliseconds
       timediff = timer - start; //get time difference between start and now
       if (timediff >= 60){ //if time difference is roughly minute
-        bpm = beats/3; //beats in a minute, so set to bpm
+        bpm = beats; //beats in a minute, so set to bpm
         // /3 because every beat is 3 voltage changes
         Serial.println("bpm: " + String(bpm));
         first = true; //restart counting time so get start time again in first if
