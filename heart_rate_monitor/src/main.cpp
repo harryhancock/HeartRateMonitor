@@ -19,9 +19,9 @@ unsigned long start;
 boolean first;
 
 //Your Domain name with URL path or IP address with path
-const char* serverName = "http://35.188.168.116/main/heart_rate/";
-const char* ssid = "honor10";
-const char* password = "kA971@KsN";
+const char* serverName 
+const char* ssid 
+const char* password 
 
 /*Key to sensor operation -------------------------------------------
 Make sure to press little LED, then position index finger parallel to sensor
@@ -49,7 +49,7 @@ void PostRequest(String bpm){
       // If you need an HTTP reque
       //post with a content type: text/plain
       http.addHeader("Content-Type", "text/plain");
-      int httpResponseCode = http.POST("hboy"+bpm);
+      int httpResponseCode = http.POST(".."+bpm);
      
       Serial.print("HTTP Response code: ");
       Serial.println(httpResponseCode);
