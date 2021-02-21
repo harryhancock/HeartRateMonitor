@@ -2,12 +2,12 @@
 This is a hardware project which measures the users heartrate and outputs the waveform from a bandpass filter to an oscilloscope. I have included the C code in this repo.
 
 # Construction
-I built this my measuring analogue signals using the AVR powered Il Matto development board and using its analogue-to-digital converter to measure voltages.
-I applied this to build a proximity detector using a reflectie optical sensor, along with the following components.
-Finally I amplified very small variations in intensity from the optical sensor using a bandpass filter circuit with a gain of 50 at the centre freq of 2.3Hz composed of a passive high-pass filter and active low-pass filter.
-This allowed me to convert it into a non-invasive system for measuring your heart rate known as Photoplethysmography
-The passive high-pass filter was constructed using the 1µF capacitor and 68kΩ resistor in series
-The active low-pass filter using the 6.8kΩ resistor, 680kΩ resistor, 100nF capacitor and Op-Amp.
+* I built this my measuring analogue signals using the AVR powered Il Matto development board and using its analogue-to-digital converter to measure voltages.
+* I applied this to build a proximity detector using a reflectie optical sensor, along with the following components.
+* Finally I amplified very small variations in intensity from the optical sensor using a bandpass filter circuit with a gain of 50 at the centre freq of 2.3Hz composed of a passive high-pass filter and active low-pass filter.
+* This allowed me to convert it into a non-invasive system for measuring your heart rate known as Photoplethysmography
+* The passive high-pass filter was constructed using the 1µF capacitor and 68kΩ resistor in series
+* The active low-pass filter using the 6.8kΩ resistor, 680kΩ resistor, 100nF capacitor and Op-Amp.
 
 # Learning outcomes
 * Configured the ADC to sample from a chosen input
